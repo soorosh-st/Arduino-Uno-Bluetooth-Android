@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/temp"
+        android:title="Temp"
+        android:icon="@drawable/ic_baseline_device_thermostat_24"
+        app:cnb_iconColor="#1E88E5"/>
+    <item
+        android:id="@+id/rip"
+        android:icon="@drawable/ic_baseline_lightbulb_circle_24"
+        android:title="PIR"
+        app:cnb_iconColor="#1E88E5"/>
+    <item
+        android:id="@+id/irnmotor"
+        android:icon="@drawable/ic_baseline_speed_24"
+        android:title="Motor"
+        app:cnb_iconColor="#1E88E5" />
+
+    <item
+        android:id="@+id/unltrasonic"
+        android:icon="@drawable/ic_baseline_social_distance_24"
+        android:title="UltraSonic"
+        app:cnb_iconColor="#1E88E5" />
+
+</menu>
